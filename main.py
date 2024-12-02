@@ -27,7 +27,7 @@ class Bot(BaseBot):
         await self.highrise.walk_to(Position(16.5 , 0.0 , 11.0 , "FrontRight"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
-        await self.highrise.chat(f"خوش آمدید به نینی یابی 💞برای دنس زدن بنویسید1تا97💞برای درخواست های بیشتر بنویسید !help")
+        await self.highrise.chat(f"خوش آمدید به دیت ناشناس💞برای دنس زدن بنویسید1تا97💞برای درخواست های بیشتر بنویسید !help")
    
         await self.highrise.send_emote("hcc-jetpack")
 
