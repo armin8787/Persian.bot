@@ -1,4 +1,4 @@
-۸from flask import Flask
+from flask import Flask
 from threading import Thread
 from highrise.__main__ import *
 import time
